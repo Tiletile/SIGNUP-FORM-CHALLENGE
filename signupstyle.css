@@ -1,0 +1,112 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: unset;
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+}
+
+.container{
+    background-image: url(./img/WhatsApp\ Image\ 2023-08-31\ at\ 23.02.43.jpg);
+    background-color: hsl(0, 100%, 74%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    width: 1100px;
+}
+
+.overlay{
+    height: 600px;
+    width: 1100px;
+    background-color: rgba(255, 122, 122, .9);
+}
+.aside{
+    margin-left: 5%;
+    margin-top: 12%;
+    color: white;
+    position: fixed;
+    display: inline;
+    text-align: left;
+    justify-content: center;
+}
+
+.aside h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.aside p{
+    font-size: 13px;
+}
+
+.input{
+    float: right;
+    text-align: center;
+    height: 200px;
+    width: 550px;
+    margin-left: 50px;
+
+
+}
+
+.input p{
+    
+    background-color: hsl(248, 32%, 49%);
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+    box-shadow:  0px 5px 8px black;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+.input section{
+    background-color: white;
+margin-right: 20%;
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 3%;    
+box-shadow:  0px 5px 8px black;
+border: none;
+
+
+}
+
+.input input{
+    width: 350px;
+    height: 25px;
+}
+
+.input button{
+    width: 350px;
+    height: 40px;
+    background-color: hsl(154, 82%, 51%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    border: none;
+    box-shadow:  0px 3px 8px black;
+    
+}
+
+.input section h6 a{
+    color: red;
+}
+.authorize{
+    color: white;
+    margin-left: -100px;
+    margin-top: 50px;
+    font-size: 16px;
+    
+}
+
+

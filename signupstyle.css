@@ -5,13 +5,15 @@ body{
     opacity: unset;
     font-family: 'Poppins',sans-serif;
     background-color: white;
+    width: 1200px;
+    height: 900px;
+    
 }
 
 .container{
     background-image: url(./img/WhatsApp\ Image\ 2023-08-31\ at\ 23.02.43.jpg);
-    background-color: hsl(0, 100%, 74%);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     margin-left: 100px;
     margin-right: 100px;
     height: 600px;
@@ -21,14 +23,13 @@ body{
 .overlay{
     height: 600px;
     width: 1100px;
-    background-color: rgba(255, 122, 122, .9);
+    background-color: rgba(252, 130, 130, 0.9);
 }
 .aside{
     margin-left: 5%;
-    margin-top: 12%;
+    margin-top: 20%;
+    float: left;
     color: white;
-    position: fixed;
-    display: inline;
     text-align: left;
     justify-content: center;
 }
@@ -42,17 +43,17 @@ body{
     font-size: 13px;
 }
 
-.input{
+.form{
     float: right;
     text-align: center;
     height: 200px;
     width: 550px;
     margin-left: 50px;
-
+    margin-top: -10px;
 
 }
 
-.input p{
+.form p{
     
     background-color: hsl(248, 32%, 49%);
     margin-right: 20%;
@@ -67,7 +68,7 @@ body{
     
 }
 
-.input section{
+.form form{
     background-color: white;
 margin-right: 20%;
 padding-top: 5%;
@@ -75,38 +76,56 @@ padding-bottom: 5%;
 border-radius: 3%;    
 box-shadow:  0px 5px 8px black;
 border: none;
-
-
 }
 
-.input input{
-    width: 350px;
-    height: 25px;
+
+label{
+    position: relative;
 }
 
-.input button{
-    width: 350px;
+label:before{
+    content: "";
+    position: absolute;
+    left: 90%;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./icon-error.svg") center/contain no-repeat;
+} 
+
+.form form input{
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+.form .submit{
     height: 40px;
     background-color: hsl(154, 82%, 51%);
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
     color: white;
     font-weight: bolder;
     font-size: 12px;
     border: none;
     box-shadow:  0px 3px 8px black;
-    
+    text-align: center;
 }
 
-.input section h6 a{
+.form form h6 a{
     color: red;
 }
+
+
 .authorize{
     color: white;
-    margin-left: -100px;
-    margin-top: 50px;
+    margin-left: -230px;
+    margin-top: 20px;
     font-size: 16px;
-    
-}
 
-
+@media screen { 
+    min-width:900px;
+    max-width: 1000px;
+} }
